@@ -16,7 +16,7 @@ public class Main : MonoBehaviour
     private GameObject TargetInstance;
 
 	void Start () {
-		Cannon.CannonAi = new Solution();
+		Cannon.CannonAi = new CannonAI();
 
 	    Cannon.Hit += CannonOnHit;
         Cannon.NoAmmo += CannonOnNoAmmo;
